@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>写信给我</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    margin-top: 0.5%;
+    width: 70%;
+    height: 3%;
+    margin-left: 15%;
+    list-style: none;
+    position: relative;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 20px; 
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #d6d6d6;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+}
+
+.line {
+    width: 1px;
+    height: 11px;
+    background-color: rgb(192, 189, 189);
+    margin: 0 10px;
+}
+
+.left li > img {
+    width: 30px;
+    height: 30px;
+}
+
+.background{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.centered-image {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border-radius: 15%;
+    width: 1000px;
+    height: auto;
+    background-color: #a3d0ec;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.centered-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+}
+.title {
+    text-align: center;
+    top: 5%;
+    left: 42%;
+    width: 60%;
+    z-index: 5;
+    margin-left: 19%;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 5%;
+    font-family: 楷体;
+    background-color: #2b2b2b69;
+    height: 100%;
+    border-radius: 5%;
+}
+.circular-image {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 5;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.circular-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+p {
+    font-size: 50px;
+    width: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-family: 楷体;
+}
+
+h1 {
+    margin-top: 2%;
+    text-align: center;
+    font-family: 楷体;
+}
+
+.title1 {
+    text-align: center;
+    top: 5%;
+    left: 42%;
+    z-index: 5;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 楷体;
+    width: 20%;
+    border: solid 5px rgb(134, 134, 134);
+    background-color: #d8d8d8;
+}
+
+.title1 a {
+    text-decoration: none;
+    margin-top: 12%;
+    color: rgb(135, 134, 182);
+}
+
+.title1 a:hover {
+    color: #c2c2c2;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul class="left">
+            <li><a href="./index.html" class="miao">首页</a></li>
+            <li class="line"></li>
+            <li><a href="./个人简介.html" class="miao">个人简介</a></li>
+            <li class="line"></li>
+            <li><a href="./我的作品.html" class="miao">我的作品</a></li>
+            <li class="line"></li>
+            <li><a href="./学习心得.html" class="miao">学习心得</a></li>
+            <li class="line"></li>
+            <li><a href="./写信给我.html" class="miao">写信给我</a></li>
+            <li class="line"></li>
+            <li><a href="../../ww/109寝室.html" class="miao">返回寝室</a></li>
+        </ul>
+    </div>
+    <img src="./img/流星.png" alt="" class="background">
+    
+
+    <div class="title">
+        写信给我
+        <p>墨香轻飘，笔下生花，字字珠玑，句句心画</p>
+        
+    <p>纸短情长，言浅意深，书不尽意，信可达心</p>
+    
+    
+    </div>
+    <div class="title1">
+        <a href="mailto:2974350623@qq.com">点我写信</a>
+    </div>
+  
+</body>
+</html>
+

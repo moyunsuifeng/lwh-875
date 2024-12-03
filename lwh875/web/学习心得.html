@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宁宁的小窝</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 100%;
+            height: 5%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        ul {
+            margin-top: 0.5%;
+            width: 70%;
+            height: 3%;
+            margin-left: 15%;
+            list-style: none;
+            position: relative;
+        }
+
+        ul li {
+            display: inline-block;
+            line-height: 20px; 
+            margin: 0 10px;
+        }
+
+        li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #d6d6d6;
+            padding: 0 10px;
+            border-radius: 5px;
+        }
+
+        li a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .line {
+            width: 1px;
+            height: 11px;
+            background-color: rgb(192, 189, 189);
+            margin: 0 10px;
+        }
+
+        a:hover {
+            color: #000000;
+        }
+
+        .top-image {
+            position: fixed;
+            top: 0;
+            left: 30%;
+            z-index: 5;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+            padding-top: 35px;
+            position: relative;
+        }
+
+        .background{
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: -1;
+        }
+
+        p {
+            height: 30%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            background: #bababa49;
+            color: #000000;
+            font-size: 70px;
+            z-index: 5;
+        }
+
+        .circular-image {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            z-index: 5;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .circular-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/流星.png" alt="" class="background">
+
+    <div class="box">
+        <ul class="left">
+            <li><a href="./index.html" class="miao">首页</a></li>
+            <li class="line"></li>
+            <li><a href="./个人简介.html" class="miao">个人简介</a></li>
+            <li class="line"></li>
+            <li><a href="./我的作品.html" class="miao">我的作品</a></li>
+            <li class="line"></li>
+            <li><a href="./学习心得.html" class="miao">学习心得</a></li>
+            <li class="line"></li>
+            <li><a href="./写信给我.html" class="miao">写信给我</a></li>
+            <li class="line"></li>
+            <li><a href="../../ww/109寝室.html" class="miao">返回寝室</a></li>
+        </ul>
+    </div>
+    <p>好好学习，天天向上！</p>
+    <p>有志者事竟成，破釜沉舟百,二秦关终属楚。</p>
+    <p>
+        苦心人天不负，卧薪尝胆,三千越甲可吞吴!
+    </p>
+    <div class="circular-image">
+        <img src="./img/6953e7aa4934a5db84be76c95c398564.jpg" alt="圆形图片">
+    </div>
+</body>
+</html>

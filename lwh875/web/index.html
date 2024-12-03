@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宁宁的小窝</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+           
+        }
+
+        .background{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            width: auto;
+            height: 100%;
+            z-index: -100;
+        }
+
+        .box {
+            width: 100%;
+            height: 5%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        ul {
+            margin-top: 0.5%;
+            width: 70%;
+            height: 3%;
+            margin-left: 15%;
+            list-style: none;
+            position: relative;
+        }
+
+        ul li {
+            display: inline-block;
+            line-height: 20px; 
+            margin: 0 10px;
+        }
+
+        li a {
+            text-decoration: none;
+            font-size: 20px;
+            color: #d6d6d6;
+            padding: 0 10px;
+            border-radius: 5px;
+        }
+
+        li a:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .welcome-box {
+            margin-left: 10%;
+            margin-top: 5%;
+            width: 80%;
+            height: 30%;
+            background-color: rgba(0, 0, 0, 0.506);
+            border-radius: 15px;
+            
+            justify-content: center;
+            align-items: center;
+            color: rgb(147, 157, 196);
+            font-size: 90px;
+            font-family:  '华文彩云', serif;
+            z-index: 30;
+            padding: 20px;
+        }
+
+        .welcome-box img {
+            width: 150px;
+            height: auto;
+            margin-top: 2%;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .welcome-box:hover{
+            background-color: #1a1a1a48;
+        }
+        .circular-image {
+            position: fixed;
+            right: 20px;
+            top: 20px;
+            z-index: 5;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            z-index: 300;
+        }
+
+        .circular-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+        .jianjie{
+            width: 90%;
+            height: 1600;
+            background-color: rgba(205, 168, 161, 0.372);
+            margin: 40px 5%;
+            z-index: 5;
+            font-size: 20px;
+            color: white;
+            border-radius: 5%;
+        }
+        .jianjie p{
+            margin-left: 0.5%;
+            width: 100%;
+            float: left;
+            color: rgb(241, 169, 228);
+        }
+        .jianjie h1{
+            text-align: center;
+            font-size: 50px;
+            font-weight: 400;
+            border-radius: 5%;
+            font-family: 楷体;
+            
+        }
+        .jianjie h1 span{
+            font-size: 30px;
+            font-weight: 200;
+        }
+        .jianjie img{
+            margin-left: 4%;
+            border-radius: 5%;
+            
+        }
+        .dibu{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./img/流星.png" alt="" class="background">
+
+    <div class="box">
+        <ul class="left">
+            <li><a href="./index.html" class="miao">首页</a></li>
+            <li class="line"></li>
+            <li><a href="./个人简介.html" class="miao">个人简介</a></li>
+            <li class="line"></li>
+            <li><a href="./我的作品.html" class="miao">我的作品</a></li>
+            <li class="line"></li>
+            <li><a href="./学习心得.html" class="miao">学习心得</a></li>
+            <li class="line"></li>
+            <li><a href="./写信给我.html" class="miao">写信给我</a></li>
+            <li class="line"></li>
+            <li><a href="../../ww/109寝室.html" class="miao">返回寝室</a></li>
+        </ul>
+    </div>
+    <div class="welcome-box">
+        <img src="./img/8878d95232373b72b72e3466c80e2d03.jpg" alt="头像">
+        欢迎来到我的主页！
+    </div>
+    <div class="jianjie">
+        <h1>长恨歌</h1>
+        <h1><span>白居易</span></h1>
+        <p>
+            汉皇重色思倾国，御宇多年求不得。
+
+杨家有女初长成，养在深闺人未识。
+
+天生丽质难自弃，一朝选在君王侧。
+
+回眸一笑百媚生，六宫粉黛无颜色。
+
+春寒赐浴华清池，温泉水滑洗凝脂。
+
+侍儿扶起娇无力，始是新承恩泽时。
+
+云鬓花颜金步摇，芙蓉帐暖度春宵。
+
+春宵苦短日高起，从此君王不早朝。
+
+承欢侍宴无闲暇，春从春游夜专夜。
+
+后宫佳丽三千人，三千宠爱在一身。
+
+金屋妆成娇侍夜，玉楼宴罢醉和春。
+
+姊妹弟兄皆列土，可怜光彩生门户。
+
+遂令天下父母心，不重生男重生女。
+
+骊宫高处入青云，仙乐风飘处处闻。
+
+缓歌谩舞凝丝竹，尽日君王看不足。
+
+渔阳鼙鼓动地来，惊破霓裳羽衣曲。
+
+九重城阙烟尘生，千乘万骑西南行。
+
+翠华摇摇行复止，西出都门百余里。
+
+六军不发无奈何，宛转蛾眉马前死。
+
+花钿委地无人收，翠翘金雀玉搔头。
+
+君王掩面救不得，回看血泪相和流。
+
+黄埃散漫风萧索，云栈萦纡登剑阁。
+
+峨嵋山下少人行，旌旗无光日色薄。
+
+蜀江水碧蜀山青，圣主朝朝暮暮情。
+
+行宫见月伤心色，夜雨闻铃肠断声。
+
+天旋地转回龙驭，到此踌躇不能去。
+
+马嵬坡下泥土中，不见玉颜空死处。
+
+君臣相顾尽沾衣，东望都门信马归。
+
+归来池苑皆依旧，太液芙蓉未央柳。
+
+芙蓉如面柳如眉，对此如何不泪垂。
+
+春风桃李花开日，秋雨梧桐叶落时。
+
+西宫南内多秋草，落叶满阶红不扫。
+
+梨园弟子白发新，椒房阿监青娥老。
+
+夕殿萤飞思悄然，孤灯挑尽未成眠。
+
+迟迟钟鼓初长夜，耿耿星河欲曙天。
+
+鸳鸯瓦冷霜华重，翡翠衾寒谁与共。
+
+悠悠生死别经年，魂魄不曾来入梦。
+
+临邛道士鸿都客，能以精诚致魂魄。
+
+为感君王辗转思，遂教方士殷勤觅。
+
+排空驭气奔如电，升天入地求之遍。
+
+上穷碧落下黄泉，两处茫茫皆不见。
+
+忽闻海上有仙山，山在虚无缥渺间。
+
+楼阁玲珑五云起，其中绰约多仙子。
+
+中有一人字太真，雪肤花貌参差是。
+
+金阙西厢叩玉扃，转教小玉报双成。
+
+闻道汉家天子使，九华帐里梦魂惊。
+
+揽衣推枕起徘徊，珠箔银屏迤逦开。
+
+云鬓半偏新睡觉，花冠不整下堂来。
+
+风吹仙袂飘飘举，犹似霓裳羽衣舞。
+
+玉容寂寞泪阑干，梨花一枝春带雨。
+
+含情凝睇谢君王，一别音容两渺茫。
+
+昭阳殿里恩爱绝，蓬莱宫中日月长。
+
+回头下望人寰处，不见长安见尘雾。
+
+惟将旧物表深情，钿合金钗寄将去。
+
+钗留一股合一扇，钗擘黄金合分钿。
+
+但教心似金钿坚，天上人间会相见。
+
+临别殷勤重寄词，词中有誓两心知。
+
+七月七日长生殿，夜半无人私语时。
+
+在天愿作比翼鸟，在地愿为连理枝。
+
+天长地久有时尽，此恨绵绵无绝期。
+        </p>
+        <img src="./img/9-23.jpg" alt="">
+    </div>
+
+    <div class="circular-image">
+        <img src="./img/cfd6ef4e2d34129099fe6b93f1a3a040.png" alt="圆形图片">
+    </div>
+    <div class="dibu"></div>
+</body>
+</html>
